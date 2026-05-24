@@ -1,0 +1,80 @@
+export const certifications = [
+  "Computer Vision",
+  "Deep Reinforcement Learning",
+  "Microsoft Certified: Azure Fundamentals",
+  "Front End Development Libraries",
+  "Back End Development and APIs",
+  "Scientific Computing with Python",
+];
+
+export const skillGroups = [
+  {
+    id: "ai-ml",
+    label: "AI & Machine Learning",
+    skills: [
+      "LLM",
+      "RAG",
+      "LangChain",
+      "LangGraph",
+      "OpenAI API",
+      "Claude API",
+      "PyTorch",
+      "TensorFlow",
+      "spaCy",
+      "OCR",
+    ],
+  },
+  {
+    id: "engineering",
+    label: "Software Engineering",
+    skills: [
+      "Python",
+      "Java",
+      "Spring Boot",
+      "Spring MVC",
+      "FastAPI",
+      "Flask",
+      "REST APIs",
+      "React",
+      "TypeScript",
+      "AngularJS",
+      "HTML",
+      "CSS",
+      "jQuery",
+      "Git",
+      "Linux",
+    ],
+  },
+  {
+    id: "data",
+    label: "Data & Infrastructure",
+    skills: [
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "Elasticsearch",
+      "Neo4j",
+      "Vector Databases",
+      "Kafka",
+      "RabbitMQ",
+    ],
+  },
+  {
+    id: "cloud",
+    label: "Cloud, MLOps & DevOps",
+    skills: [
+      "AWS",
+      "Azure OpenAI",
+      "GCP",
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "Airflow",
+      "MLflow",
+      "CI/CD",
+      "GitHub Actions",
+    ],
+  },
+] as const;
+
+export const skills = skillGroups.flatMap((group) => group.skills);
