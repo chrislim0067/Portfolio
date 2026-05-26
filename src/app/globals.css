@@ -541,14 +541,6 @@ a.li-link:hover {
   color: var(--li-text-muted);
 }
 
-.hero-connections {
-  margin: 4px 0 0;
-  font-size: 14px;
-  font-weight: 400;
-  color: var(--li-text-muted);
-  cursor: default;
-}
-
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -1798,10 +1790,6 @@ html:not(.dark) .project-card.cine-showcase:hover {
   }
 
   .hero-meta,
-  .hero-connections {
-    font-size: 13px;
-  }
-
   .hero-body {
     padding: 0 14px 14px;
   }

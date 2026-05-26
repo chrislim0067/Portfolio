@@ -46,9 +46,6 @@ export function Hero() {
                 Contact info
               </button>
             </p>
-            <p className="hero-connections">
-              {profile.connections} connections
-            </p>
           </div>
 
           <div className="hero-actions">

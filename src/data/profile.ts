@@ -4,7 +4,6 @@ export const profile = {
   headline:
     "Staff AI/ML Engineer & Full-Stack Engineer | LLM, RAG & Cloud AI · NUS MSc",
   location: "Queenstown, Singapore",
-  connections: "500+",
   email: "chris.limjh@gmail.com",
   github: "https://github.com/chriskiel",
   linkedin: "https://www.linkedin.com/in/chris-kiel-804659106/",
